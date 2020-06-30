@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panaderia | Salesiana</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Hoja de estilo -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+
+    <!-- Titulo logo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Panaderia Salesiana</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Barra de navegacion -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutUs.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products.html">Productos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./contactUs.html">Contacto<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Portada -->
+    <div class="cover d-flex align-items-center">     
+      <div class="container d-flex justify-content-start ">
+        <h1>Contacto</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Formulario -->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-around">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <h4 class="mb-4">Rellene los siguientes campos y nos pondremos en contacto con usted.</h4>
+          <form>
+            <div class="form-group">
+              <label for="name">Nombre completo:</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electronico:</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Comentario o mensaje:</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-secondary mb-5">Enviar</button>
+          </form>  
+        </div>
+        <div class="col-12 col-sm-6 col-lg-5">
+          <h4 class="mb-3">Aquí nos vemos:</h4>
+          <p>Avenida Cuatricentenaria, vía Guataparo C.C. El Portachuelo</p>
+          <div class="responsive-iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d490.8753061604315!2d-68.04575140850304!3d10.180455528924776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e80677d3e211d37%3A0xd6f35b55011ebeb6!2sPanader%C3%ADa%20Pan%20Dorado!5e0!3m2!1ses!2spe!4v1593539973153!5m2!1ses!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina -->
+  <footer class="end">
+    <div class="container mt-2 d-flex justify-content-end"> 
+      <p>Designed with by <a href="https://anglira.github.io/" target="_blank">@angLira</a> </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
